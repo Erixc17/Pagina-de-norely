@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #0d0327;
+}
+
+.neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0,2s;
+}
+
+.neon:hover{
+    background: #04009A;
+    box-shadow: 0px 0px 10px #04009A, 0 0 40px #04009A, 0 0 80px #04009A;
+    transition: .5s;
+    cursor: grabbing;
+}
+
+.neon span{
+    position: absolute;
+    display: block;
+}
+
+div{
+    font-family: 'segoe IU';
+    margin-top: 210px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
